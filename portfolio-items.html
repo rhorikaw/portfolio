@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Richmond Horikawa - Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <script src="https://kit.fontawesome.com/918da84484.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Mono&display=swap">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="menu"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="./index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="./index.html#services" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="./index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="portfolio-page" id="intro">
+            <h1>My Projects</h1>
+        </section>
+
+        <section class="portfolio-page" id="180DC">
+            <h1 class="section__title section__title--intro">
+                <strong>180 Degrees Consulting Website</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--portfolio">A home page for a consulting club at UCI</p>
+
+            <div class="portfolio-item-individual">
+                <p>
+                    The home page of 180 Degrees Consulting @ UCI, which is a consulting club in the University of California, Irvine. 
+                    I was asked to assist in developing their new website using the ReactJS framework.
+                </p>
+                <p>
+                    This project was a great way to implement all of the knowledge that I had picked up from the previous
+                    Javascript/ React projects. It also was a great opportunity to review a little bit of GraphQL, as we integrated 
+                    Contentful to the website via GraphQL queries.
+                </p>
+                <p>
+                    Due to the club wanting the repository to be private, there will not be a Github link for this project.
+                </p>
+                <div class="btn-div">
+                    <a href="https://180dc-uci-dev.netlify.app/" target="_blank" class="btn">View Live Site</a> 
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-page" id="sorting">
+            <h1 class="section__title section__title--intro">
+                <strong>Sorting Visualizer</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--portfolio">Fun with sorting algorithms</p>
+            <div class="portfolio-item-individual">
+                <p>
+                    An application meant to demonstrate how each sorting algorithm works by visualizing each step.
+                </p>
+                <p>
+                    This project served as the sequel to the pathfinding algorithm visualizer. As a college student, sorting 
+                    algorithms were one of the hardest things for me to grasp conceptually, and creating something like this had 
+                    always been a small dream of mine. 
+                </p>
+                <p>
+                    Currently hosted on the GatsbyJS cloud. 
+                </p>
+                <div class="btn-div">
+                    <a href="https://github.com/rhorikaw/sorting-visualizer" target="_blank" class="btn">Github</a>
+                    <a href="https://sortingvisualizermain.gatsbyjs.io/" target="_blank" class="btn">View Live Site</a> 
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-page" id="pathfinding">
+            <h1 class="section__title section__title--intro">
+                <strong>Pathfinding Visualizer</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--portfolio">Fun with pathfinding algorithms</p>
+
+            <div class="portfolio-item-individual">
+                <p>
+                    An application meant to demonstrate how each pathfinding algorithm works by visualizing each step.
+                </p>
+                <p>
+                    This project served as a great way to learn about the different capabilities of the ReactJS framework, on top 
+                    of reviewing the various algorithms that were covered in my machine learning courses at UCI. One of my favorite 
+                    discoveries was the use of React's lifecylce methods.
+                </p>
+                <p>
+                    Currently hosted on Github Pages. 
+                </p>
+                <div class="btn-div">
+                    <a href="https://github.com/rhorikaw/pathfinding-visualizer" target="_blank" class="btn">Github</a>
+                    <a href="https://rhorikaw.github.io/pathfinding-visualizer/" target="_blank" class="btn">View Live Site</a> 
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-page" id="prhoff">
+            <h1 class="section__title section__title--intro">
+                <strong>PR Hoff</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--portfolio">David Hasselhoff as a PR Bot</p>
+            <div class="portfolio-item-individual">
+                <p>
+                    A Slack bot with a David Hasselhoff theme that reminds users to close open pull requests in the team's Github repository.
+                </p>
+                <p>
+                    This was my final project that I worked on during my time at Experian. It was an amazing opportunity to
+                    reinforce my knowledge of RESTful APIs, as I worked with both the Slack and Github APIs to assign and send 
+                    pull requests to appropriate members of the team via Slack. 
+                </p>
+                <p>
+                    Due to this project being uploaded and deployed on private Experian accounts, there will not be a github repo or a live site.
+                    Sorry for the inconvenience!
+                </p>
+            </div>
+        </section>
+
+        <section class="portfolio-page" id="BoS">
+            <h1 class="section__title section__title--intro">
+                <strong>Brick or Swish</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--portfolio">NBA stat checker for basketball junkies</p>
+            <div class="portfolio-item-individual">
+                <p>
+                    A fullstack web app that keeps track of a list of NBA players, specified by the user.
+                </p>
+                <p>
+                    This is a project that I am currently working on. It has been a great opportunity to reinforce my knowledge of the ReactJS framework and to
+                    learn more about user authentication and how certain methods of authentication are vulnerable to certain types of attacks. 
+                </p>
+                <p>
+                    This is still a work in progress, so there will be no live link available until further notice.
+                </p>
+                <div class="btn-div">
+                    <a href="https://github.com/rhorikaw/brick-or-swish" target="_blank" class="btn">Github</a>
+                    <!-- <a href="https://sortingvisualizermain.gatsbyjs.io/" target="_blank" class="btn">View Live Site</a>  -->
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:richmondhorikawa@gmail.com" class="footer-link">richmondhorikawa@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/rhorikaw" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/richmond-horikawa/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>

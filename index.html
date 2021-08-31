@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Richmond Horikawa - Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <script src="https://kit.fontawesome.com/918da84484.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Mono&display=swap">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="menu"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Richmond Horikawa</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+            <img src="./assets/Grad-Sq.jpg" alt="Me" class="intro__img">
+        </section>
+
+        <!-- My Skills-->
+        <!-- Add Logos of frameworks/languages here vv -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">
+                What I do
+            </h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Javascript</h3>
+                    <img src="assets/logos/js.png" alt="Javascript" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>Java</h3>
+                    <img src="assets/logos/java.png" alt="Java" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>Python</h3>
+                    <img src="assets/logos/python.png" alt="Python" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>HTML</h3>
+                    <img src="assets/logos/html.png" alt="Html" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>CSS</h3>
+                    <img src="assets/logos/css.png" alt="Css" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>React</h3>
+                    <img src="assets/logos/react.png" alt="React" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>MongoDB</h3>
+                    <img src="assets/logos/mdb.png" alt="MongoDB" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>Node</h3>
+                    <img src="assets/logos/node.png" alt="Node" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>GraphQL</h3>
+                    <img src="assets/logos/gql.png" alt="GraphQL" class="service__img">
+                </div>
+                <div class="service">
+                    <h3>TypeScript</h3>
+                    <img src="assets/logos/ts.png" alt="TypeScript" class="service__img">
+                </div>
+            </div>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+         <!-- About Me -->
+         <section class="about-me" id="about">
+            <h2 class="section__title section__title--about"> Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Software Developer based out of Southern California</p>
+
+            <div class="about-me__body">
+                <p>
+                    I am a recent Computer Science graduate with solid fundamental knowledge of software design,
+                    development, and testing. Regarding development, I consider myself adept at using Javascript, Python, and Java, among
+                    other programming languages to produce optimal, readable code. I love learning about new technologies and frameworks
+                    and I am currently seeking to utilize my extensive educational background and solid software engineering
+                    skills to thrive as an entry-level software engineer.
+                </p>
+                <p>
+                    Outside of coding, I enjoy playing and watching sports (let's go Lakers!), binging shows, hiking, and spending time with my friends. 
+                </p>
+            </div>
+
+            <img src="./assets/Grad.jpg" alt="profile" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <a href="./portfolio-items.html#180DC" class="portfolio__item">
+                    <p class="portfolio__item--title">180 Degrees Consulting Website</p>
+                    <img src="./assets/project-thumbnails/180dc.PNG" alt="app" class="portfolio__img">
+                </a>
+                <a href="./portfolio-items.html#sorting" class="portfolio__item">
+                    <p>Sorting Visualizer</p>
+                    <img src="./assets/project-thumbnails/sorting.PNG" alt="app" class="portfolio__img">
+                </a>
+                <a href="./portfolio-items.html#pathfinding" class="portfolio__item">
+                    <p>Pathfinding Visualizer</p>
+                    <img src="./assets/project-thumbnails/pathfinding.PNG" alt="app" class="portfolio__img">
+                </a>
+                <a href="./portfolio-items.html#prhoff" class="portfolio__item">
+                    <p>PR Hoff</p>
+                    <img src="./assets/project-thumbnails/prhoff.png" alt="app" class="portfolio__img">
+                </a>
+                <a href="./portfolio-items.html#BoS" class="portfolio__item">
+                    <p>Brick Or Swish (Coming Soon)</p>
+                    <img src="./assets/project-thumbnails/BoS.jpg" alt="app" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:richmondhorikawa@gmail.com" class="footer-link">richmondhorikawa@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/rhorikaw" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/richmond-horikawa/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
